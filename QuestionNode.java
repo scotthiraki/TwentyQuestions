@@ -8,8 +8,8 @@ public class QuestionNode{
       Fields to store the data of the node as well as its left and right branch.
    */
     private String data;
-	private QuestionNode left;
-	private QuestionNode right;
+    private QuestionNode left;
+    private QuestionNode right;
    /**
       Constructs a leaf node with the given data;
       @param data contains the answer to the question.  
@@ -19,11 +19,11 @@ public class QuestionNode{
    }
    
    public String getData(){
-	   return data;
+   	return data;
    }
    
    public QuestionNode getLeftNode(){
-	   return left;
+   	return left;
    }
    
    public QuestionNode getRightNode(){
