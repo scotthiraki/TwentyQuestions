@@ -2,6 +2,7 @@
    Question node for the Questions game.
    Stores the data in the node and then the left and right branches if there are any.
    @author Ian Nicholas
+   @author Scott Hiraki
 */
 public class QuestionNode{
    /**
