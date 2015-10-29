@@ -19,14 +19,26 @@ public class QuestionNode{
       this(data, null, null);
    }
    
+   /**
+    * Accessor method to get data.
+    * @return data stored in the node. 
+    */
    public String getData(){
    	return data;
    }
    
+   /**
+    * Accessor method to get the left node.
+    * @return left tree node.
+    */
    public QuestionNode getLeftNode(){
    	return left;
    }
    
+   /**
+    * Accessor method to get the right node. 
+    * @return right tree node.
+    */
    public QuestionNode getRightNode(){
 	   return right;
    }
