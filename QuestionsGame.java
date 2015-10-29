@@ -1,14 +1,16 @@
 /**
    @author Ian Nicholas
    @author Scott Hiraki
-   This program constructs a binary tree by first reading the question file the user inputs.
-   Once it has the file, it is read and the questions are placed as branches and the answers become leaves.
+   
+   This program constructs a binary tree by first reading a question file the user inputs.
+   The questions are placed as branches and the answers become leaves.
    A playGame method is used to play a game where the computer guesses what the object is that the user is thinking of.
    The user answers yes or no questions until the computer gets to an answer node and guesses that it is the object.
    If the computer is right they win. 
    If the computer is wrong then it asks the user for the object they were thinking of and a new question to distinguish between the two.
    The answer that the computer guessed is replaced with the new question. The yes answer to the new question is assigned to the left leaf node and the 
    no answer is assigned to the right leaf node. The question and answers are saved for future plays of the game.
+   If the user chooses not to use a text file then a tree is created with the first object the user states and they can create their own game.
    The game ends once the user says they no longer want to play.
 */
 import java.io.*;
